@@ -42,5 +42,6 @@ void RUN(SYSTEM &a)
   }
   setStartStopColor(a.RGBshow, a.isRunning);
   setDirectionColor(a.RGBshow, a.motorrun.speed.reverse);
+  colorScale(a.RGBshow, a.motorrun.speed.currentSpeed, a.isRunning);
   setColor(a.RGBshow);
 }

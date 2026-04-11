@@ -7,6 +7,7 @@ struct color
   int green=0;
   int blue=0;
 };
+
 struct RGBled
 {
   int pinRed;
@@ -18,5 +19,6 @@ struct RGBled
 void setColor(RGBled &a);
 void setStartStopColor(RGBled &a, bool running); 
 void setDirectionColor(RGBled &a, bool reverse);
+void colorScale(RGBled &a, int speed, bool running);
 
 #endif

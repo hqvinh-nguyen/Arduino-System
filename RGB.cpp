@@ -19,3 +19,8 @@ void setDirectionColor(RGBled &a, bool reverse)
   a.RGB.blue = reverse ? 10 : 0;
 }
 
+void colorScale(RGBled &a, int speed, bool running)
+{
+  a.RGB.red = running ? 0 : 10+speed*5;
+  a.RGB.green = running ? 10+speed*5 : 0;
+}

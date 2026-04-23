@@ -1,3 +1,5 @@
+<img width="1028" height="574" alt="Onmyway" src="https://github.com/user-attachments/assets/5cc2bdfa-776a-4e49-84f6-7e36abf940ec" />
+
 # Arduino-System
 Self-study project
 Here, I'll show you how I organize the code and data for each objects in the Arduino component.

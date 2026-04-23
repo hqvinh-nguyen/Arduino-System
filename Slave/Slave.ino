@@ -9,7 +9,7 @@ Motor Motor2(6, 8, 7, 9);
 Motor Motor1(2, 4, 3, 5);
 Motor Motor3(10, 12, 11, 13);
 Motor* Motors[]={&Motor1, &Motor2, &Motor3};
-MotorManager MotorCheck(Motors, 3);
+MotorManager MotorCheck(Motors);
 
 void setup()
 {
